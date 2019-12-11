@@ -1,0 +1,5 @@
+node_modules
+script
+coverage
+*.iml
+.DS_Store

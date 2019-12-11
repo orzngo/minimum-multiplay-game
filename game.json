@@ -1,0 +1,31 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"button": {
+			"type": "image",
+			"width": 320,
+			"height": 320,
+			"path": "image/button.png"
+		},
+		"button2": {
+			"type": "image",
+			"width": 320,
+			"height": 320,
+			"path": "image/button2.png"
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes":["multi"]
+		}
+	}
+}
